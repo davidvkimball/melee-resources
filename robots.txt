@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /*.html$
+Disallow: *.md
+Disallow: *.gitignore
+Sitemap: https://blippi.gg/sitemap.xml
