@@ -2832,6 +2832,7 @@ input, select, textarea {
 	ul.menu {
 		list-style: none;
 		padding: 0;
+		margin-bottom: 1em;
 	}
 
 		ul.menu > li {
@@ -2839,12 +2840,14 @@ input, select, textarea {
 			display: inline-block;
 			line-height: 1;
 			margin-left: 1.5em;
+			margin-bottom: 1em;
 			padding: 0 0 0 1.5em;
 		}
 
 			ul.menu > li:first-child {
 				border-left: 0;
 				margin: 0;
+				margin-bottom: 1em;
 				padding-left: 0;
 			}
 
@@ -2854,7 +2857,7 @@ input, select, textarea {
 				border-left: 0;
 				display: block;
 				line-height: inherit;
-				margin: 0.5em 0 0 0;
+				margin: 0.5em 0 1em 0;
 				padding-left: 0;
 			}
 
