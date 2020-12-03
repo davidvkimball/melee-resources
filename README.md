@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/davidvkimball/blippi/master/images/Profile.gif">
+
 # Blippi.gg
 Hey everyone! I created blippi.gg so anyone that wanted to get into the video game Super Smash Bros. Melee could as quickly and as easily as possible. The Melee community is characterized by our vivacious enthusiasm and deep love for the game. During quarantine, we can't meet in-person to do tournaments, so we've turned to stay-at-home solutions to compete. 
 
