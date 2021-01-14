@@ -234,6 +234,8 @@ input, select, textarea {
 		font-size: 0.6em;
 	}
 
+	
+
 	@media screen and (max-width: 736px) {
 
 		h1 {
@@ -3501,6 +3503,51 @@ input, select, textarea {
 	#header + #wrapper > .wrapper > .inner {
 		margin: 0 auto;
 	}
+
+/* Responsive YouTube Video */
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/* YouTube Video Overlay */
+
+.vid-cover img {
+    max-width: 100%;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vid-container {
+    position:relative;
+  }
+.placeholder {
+  color:white;
+  display:block;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  text-align:center;
+}
+.prompt {
+  position:absolute;
+  right:0;
+  /* left:0; */
+  z-index: 5;
+}
 
 /* Footer */
 

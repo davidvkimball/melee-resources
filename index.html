@@ -56,8 +56,13 @@
 						<h1>Blippi.gg</h1>
 						<p>The Super Smash Bros. Melee. hub for playing, learning, and creating.</p>
 						<div class="box alt">
-						<div class="row gtr-uniform">
-						<div class="col-12-small col-12-xsmall"><span class="image fit"><img src="images/GitHubHow.gif" alt="" /></span></div></div>
+						<div style="max-width: 560px;">
+						<div class="video-responsive vid-container vid-cover">
+							<span class="placeholder">
+								<span class="prompt videoplay1 image"><img src="images/blippi-video.png">
+								</span>
+							  </span>
+							<!-- <iframe id="video1" class="image" width="560" height="315" src="https://www.youtube.com/embed/fQMdyLNeves" frameborder="0" allowfullscreen></iframe> --></div></div>
 						</div>
 						<ul class="actions">
 							<li><a href="#started" class="button scrolly">Get Started</a></li>
@@ -372,6 +377,20 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+
+		   <!-- Image cover iframe jQuery
+		   <script>
+			(function($) {
+			  $('.placeholder').click(function() {
+				$(this).remove();
+			  });
+			})(jQuery);
+		  </script>
+		  <script>
+			$('.videoplay1').on('click', function() {
+			$("#video1")[0].src += "?autoplay=1";
+			});
+		  </script> -->
 
 	</body>
 </html>
