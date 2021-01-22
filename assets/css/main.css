@@ -2022,12 +2022,12 @@ input, select, textarea {
 				-moz-transform: scale(1);
 				-webkit-transform: scale(1);
 				-ms-transform: scale(1);
-				transform: scale(1);
+			/* 	transform: scale(1);
 				position: absolute;
 				left: 3em;
 				top: 3em;
-				opacity: 1;
-			}
+				opacity: 1;*/
+			} 
 
 			.features section:nth-child(1) .icon {
 				-moz-transition-delay: 0.15s;
@@ -3946,10 +3946,9 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/img.svg");
-		background-position: top right;
+		background-image: url("images/blip.png");
+		background-position: center;
 		background-repeat: no-repeat;
-		background-size: 100% 100%;
 	}
 
 		#intro p {
