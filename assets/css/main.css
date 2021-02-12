@@ -2202,8 +2202,9 @@ input, select, textarea {
 			}
 
 				.features section .icon {
-					left: 1.5em;
-					top: 2em;
+					left: 0;
+					position: relative;
+					top: 0;
 				}
 
 		}
