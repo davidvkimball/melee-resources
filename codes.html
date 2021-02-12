@@ -52,8 +52,17 @@
 				  <!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
 				  <p>You
 					 can add more features to Slippi / Dolphin with Gecko Codes. If you're 
-					 not sure how to add these codes to Dolphin/Slippi and enable them, <a href="https://www.youtube.com/watch?v=VSyuFWItuVA" target="_blank">view the video tutorial here</a>.
+					 not sure how to add these codes to Dolphin/Slippi and enable them, view the video tutorial here:
 				  </p>
+				  <div class="box alt">
+					<div style="max-width: 560px;">
+					<div class="video-responsive vid-container vid-cover">
+						<span class="placeholder">
+							<span class="prompt videoplay1 image"><img src="images/gecko-video.png">
+							</span>
+						  </span>
+						<iframe id="video1" class="image" width="560" height="315" src="https://www.youtube.com/embed/VSyuFWItuVA" frameborder="0" allowfullscreen></iframe></div></div>
+					</div>
 				  <h2>HUD Transparency</h2>
 				  <div class="box alt">
 					 <div class="row gtr-uniform">
@@ -589,6 +598,18 @@ e2000001 00000000
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+<!-- Image cover iframe jQuery -->
+<script>
+	(function($) {
+	  $('.placeholder').click(function() {
+		$(this).remove();
+	  });
+	})(jQuery);
+  </script>
+  <script>
+	$('.videoplay1').on('click', function() {
+	$("#video1")[0].src += "?autoplay=1";
+	});
+  </script>
 	</body>
 </html>
