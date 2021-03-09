@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<head>
+	<title>Blippi.gg - Optimize</title>
+	<meta name="description" content="Optimize your PC and emulator settings to get Melee working as smoothly as possible on your machine.">
+	<link rel="stylesheet" media="screen" href="assets/css/main.css">
+	<link rel="icon" type="image/png" href="icons/favicon.png">
+	<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta property="og:title" content="Blippi.gg">
+	<meta property="og:description" content="The Super Smash Bros. Melee hub for playing, learning, and creating.">
+	<meta property="og:image" content="https://blippi.gg/images/preview.png">
+	<meta name="facebook-domain-verification" content="3si4q6c346zxbkems0emufez89oahj"><meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@projectblippi">
+	<meta name="twitter:creator" content="@davidvkimball">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-184064278-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-184064278-1');
+	</script>
+</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+		<header id="header">
+			<a href="/" class="title">Blippi.gg</a>
+			<nav>
+			   <ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/optimize" class="active">Optimize</a></li>
+					<li><a href="/discord">Discord Servers</a></li>
+					<li><a href="/codes">Gecko Codes</a></li>
+				 </ul>
+			</nav>
+		 </header>
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="inner">
+					<h1 class="major">Optimize</h1>
+					<p>
+						Optimizing Melee netplay can significantly improve the performance of the emulation, giving you a much closer experience to Melee on a console and CRT setup. Check out Radar's tutorial below, and read below for additional tips.
+					</p>
+					<div class="box alt">
+						<div style="max-width: 560px;">
+						<div class="video-responsive vid-container vid-cover">
+							<span class="placeholder">
+								<span class="prompt videoplay1 image"><img src="images/radar-video.png">
+								</span>
+							  </span>
+							<iframe id="video1" class="image" width="560" height="315" src="https://www.youtube.com/embed/Ldqe1AP4pbA" frameborder="0" allowfullscreen></iframe></div></div>
+						</div>
+					<!-- Text -->
+						<section>
+							<h2 id="slippi">Slippi</h2>
+							<p></p>
+							<h3>Graphics Settings</h3>
+							<p>
+								Visit Graphics Settings within Slippi, and start with the General tab. Experiment with video backends between OpenGL and Direct3D 9, 11, or 12. For Direct3D you'll want to utilize your video card if you have one. 
+								Set fullscreen resolution to the lowest possible if you're having trouble running the game in full screen. Set aspect ratio to Force 73:60 for Melee, or use Stretch to Window if you choose to use the widescreen Gecko code.
+								Under Enhancements, make sure it's set to 1x for best performance. If you want to enable widescreen, do NOT check the widescreen hack here. Use the Gecko code instead. 
+								Under Advanced, make sure Load Custom Textures is disabled, unless your PC can handle loading in custom textures.
+							</p>
+							<img style="max-width: 100%;max-height: 500px;" src="images/dolphin-graphics-1.png"> 
+							<img style="max-width: 100%;max-height: 500px;" src="images/dolphin-graphics-2.png"> 
+							<img style="max-width: 100%;max-height: 500px;padding-bottom: 20px;" src="images/dolphin-graphics-3.png"> 
+							<h3>Audio Settings</h3>
+							<p>
+								Make sure DSP HLE emulation is selected. "Exclusive WASAPI on default device" is the best audio backend choice for performance and lowest latency, but it comes at the cost of being the only audio you can hear. 
+								For most users or if it's giving you trouble, Cubeb will work fine at the cost a few frames of audio lag. 
+							</p>
+							<img style="max-width: 100%;max-height: 500px;padding-bottom: 20px;" src="images/dolphin-audio.png"> 
+							<h3>Diet Melee</h3>
+							<p>
+								If you're looking for a lower-poly, less taxing version of Melee to run on your PC, then check out the <a href="http://diet.melee.tv" target="_blank">Diet Melee builds</a>. There are three variants to choose from, all packaged together in a convenient installer.
+							</p>
+							<h3>Gecko Codes</h3>
+							<p>
+								Check out the <a href="/codes" target="_blank">Gecko Codes page</a> to discover codes you can add that will improve the game's performance.
+							</p>
+							<hr />
+							<h2 id="controller">Controller</h2>
+							<p></p>
+							<h3>Adapter Polling Refresh Rate</h3>
+							<p>
+								Overclock your GameCube controller adapter and increase your input polling rate. 
+								Full written guide by Arte is <a href="https://docs.google.com/document/d/1cQ3pbKZm_yUtcLK9ZIXyPzVbTJkvnfxKIyvuFMwzWe0/edit#heading=h.ltqrmtr23jqq" target="_blank">here</a>. 
+								Video tutorial for Windows users by David V. Kimball is <a href="https://www.youtube.com/watch?v=hXj0w3SMpyw" target="_blank">here</a>. 
+								Mayflash V0.5 firmware link is <a href="https://cdn.discordapp.com/attachments/267863375642492929/783382207359352862/MAYFLASH_W012_GC_Controller_Adapter_4_Ports_Firmware_V.05for_Windows_Linux.zip" target="_blank">here</a>.
+							</p>
+							<hr />
+							<h2 id="monitor">Monitor</h2>
+							<p>
+
+							</p>
+							<h3>Refresh Rate</h3>
+							<p>
+								You'll want to use a 120Hz or a 144Hz monitor with your Slippi setup. This will help the game feel as responsive as CRT Melee. 
+								Make sure to enable the higher refresh rate with your PC's settings once you have the monitor connected. In Windows 10, go to Settings, System, Display, and then click "Advanced display settings." Select the correct display if there's more than one, and click "Display adapter properties for Display X, go to the monitor tab and select the higher refresh rate, either 120Hz or 144Hz.
+							</p>
+							<img style="max-width: 100%;max-height: 500px;" src="images/windows-settings.png"> 
+							<img style="max-width: 100%;max-height: 500px;" src="images/advanced-display.png"> 
+							<img style="max-width: 100%;max-height: 500px;padding-bottom: 20px;" src="images/monitor-properties.png"> 
+							<h3>NVIDIA Graphics Settings on Windows</h3>
+							<p>
+								Go to NVIDIA Control Panel, 3D Settings > Manage 3D Settings, then add Slippi (Slippi Dolphin.exe) by browsing your PC for the executable. 
+								Note: if there are multiple Dolphin Emulators on the list, make sure you're selecting the version you use for Slippi. 
+								For Low Latency Mode, set it to On from the list of features. Power management mode should be set to Prefer maximum performance. Triple buffering and Vertical Sync should both be set to off. 
+								Provided you have an NVIDIA graphics card, the latest version of GeForce Experience, and the latest drivers, these options should be available to you. 
+								You can also try using G-Sync or Freesync with a compatible monitor if you have one. 
+							</p>
+							<img style="max-width: 100%;max-height: 500px;" src="images/nvidia-control-panel.png"> 
+							<hr />
+							<h2>Internet</h2>
+							<p>
+								Always use a wired / Ethernet connection to play Slippi online. Do not rely on a WiFi connection. 
+								No matter how good your router is, it will never have the consistency of a wired connection. 
+							</p>
+							<h3>Ethernet Adapter</h3>
+							<p>
+								Here are <a href="https://helpdesk.flexradio.com/hc/en-us/articles/202118518-Optimizing-Ethernet-Adapter-Settings-for-Maximum-Performance" target="_blank">some Ethernet adapter optimization tips</a> by Tim Ellison. 
+							</p>
+							<hr />
+							<h2>PC Build</h2>
+							<p>
+								See <a href="https://docs.google.com/document/d/1UELVba2SBlyPjSQkRLOzqdRk17F6-m0X7s2lWT37DFU" target="_blank">Kadano's SSBM Netplay / Slippi Setup Value Build + minimal audio lag guide</a> if you're looking to build the cheapest PC you can to run Melee.
+							</p>
+              </div>
+              </section>
+			</section>
+       </div>
+       
+		 <!-- Footer -->
+		 <footer id="footer" class="wrapper style1-alt">
+			<div class="inner">
+				<ul class="menu">
+					<li>Blippi.gg  <a href="https://discord.gg/melee" class="icon brands fa-discord" target="_blank"></a>  <a href="https://twitter.com/projectblippi" class="icon brands fa-twitter" target="_blank"></a>  <a href="https://github.com/davidvkimball/blippi" class="icon brands fa-github" target="_blank"></a></li>
+					<li>Made with love by <a href="http://davidvkimball.com/" target="_blank">David V. Kimball</a>  <a href="https://twitch.tv/davidvkimball" class="icon brands fa-twitch" target="_blank"></a></li>
+					<li>Support my work on <a href="http://patreon.com/davidvkimball" target="_blank">Patreon</a> ♡</li>
+					<li>Design: <a href="http://html5up.net/" target="_blank">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</footer> 
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	<!-- Image cover iframe jQuery -->
+<script>
+	(function($) {
+	  $('.placeholder').click(function() {
+		$(this).remove();
+	  });
+	})(jQuery);
+  </script>
+  <script>
+	$('.videoplay1').on('click', function() {
+	$("#video1")[0].src += "?autoplay=1";
+	});
+  </script>
+	</body>
+</html>
