@@ -249,7 +249,62 @@ C22F9A3C 00000007
 4E800021 3F59999A
 C1A80000 801D0014
 60000000 00000000</code></pre>
-              <h2 id="stagegeometry">Stage Geometry</h2>
+					<h2 id="stagegeometry">Display Teams Ally</h2>
+					<div class="box alt">
+					<div class="row gtr-uniform">
+						<div class="col-12-small col-12-xsmall"><span class="image fit"><img src="images/ally.png"></span></div>
+					</div>
+					</div>
+					<button id="codeButton9" type="button">Show Code</button><br><br>
+					<pre><code class="codeBlocks" id="code9" style="display: none;">$Optional: Display Teams Ally v1.1 [UnclePunch]
+C22FC9E4 0000001D
+3B840000 7C0802A6
+90010004 9421FF50
+BE810008 7C7E1B78
+3C608048 80639D30
+5463443E 2C030208
+408200A4 3D808016
+618CB168 7D8903A6
+4E800421 2C030000
+4182008C 806DB61C
+88630000 7C03F000
+4182007C 3D808003
+618C3370 7D8903A6
+4E800421 7C7D1B78
+7FC3F378 3D808003
+618C3370 7D8903A6
+4E800421 7C03E800
+4082004C 1C7E000E
+3C808046 6084B6A0
+7CA32214 8865003C
+60630010 9865003C
+1C7D0004 7C63FA14
+C0230064 BA810008
+800100B4 382100B0
+7C0803A6 3D80802F
+618CCA84 7D8903A6
+4E800420 7FC3F378
+BA810008 800100B4
+382100B0 7C0803A6
+60000000 00000000</code></pre>
+				<h2 id="stagegeometry">Disable "Go!" Text Graphic</h2>
+					<div class="box alt">
+						<div class="row gtr-uniform">
+							<div class="col-12-small col-12-xsmall"><span class="image fit"><img src="images/goremoval.gif"></span></div>
+					</div>
+				</div>
+				<button id="codeButton10" type="button">Show Code</button><br><br>
+				<pre><code class="codeBlocks" id="code10" style="display: none;">$Optional: Disable "Go!" Text Graphic On Match Start [gadzook]
+c22f6ea8 00000002
+7c6e1b78 2c030008
+60000000 00000000
+c22f6fac 00000005
+2c0e0004 41820020
+3d808039 618c069c
+7d8903a6 4e800421
+60000000 39c00000
+60000000 00000000</code></pre>
+				<h2 id="stagegeometry">Stage Geometry</h2>
 				  <div class="box alt">
 					 <div class="row gtr-uniform">
 						<div class="col-12-small col-12-xsmall"><span class="image fit"><img src="images/stagegeometry.png"></span></div>
@@ -585,6 +640,26 @@ e2000001 00000000
 				$("#codeButton8").click(function() {
 					var link = $(this);
 					$("#code8").toggle(function() {
+						if ($(this).is(':visible')) {
+							link.text('Hide Code');
+						} else {
+							link.text('Show Code');
+						}
+					});
+				});
+				$("#codeButton9").click(function() {
+					var link = $(this);
+					$("#code9").toggle(function() {
+						if ($(this).is(':visible')) {
+							link.text('Hide Code');
+						} else {
+							link.text('Show Code');
+						}
+					});
+				});
+				$("#codeButton10").click(function() {
+					var link = $(this);
+					$("#code10").toggle(function() {
 						if ($(this).is(':visible')) {
 							link.text('Hide Code');
 						} else {
