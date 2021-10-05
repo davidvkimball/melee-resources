@@ -1,0 +1,9 @@
+To install GC adapter udev rules on Linux, enter the following string of commands:
+
+sudo rm -f /etc/udev/rules.d/51-gcadapter.rules && sudo touch /etc/udev/rules.d/51-gcadapter.rules && echo 'SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTRS{idVendor}=="057e", ATTRS{idProduct}=="0337", MODE="0666"' | sudo tee /etc/udev/rules.d/51-gcadapter.rules > /dev/null && sudo udevadm control --reload-rules
+
+There is no output, so once it is finished restart Dolphin and test your adapter.
+
+If your adapter still doesn't work then try running the command below or restarting your computer.
+
+sudo systemctl restart udev.service
