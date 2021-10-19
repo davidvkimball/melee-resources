@@ -555,8 +555,8 @@
 					  </table>
 					  </div>
 					  <h2>Region - North America, Canada</h2>
-					<button id="listButton6" type="button">Show List</button><br><br>
-					<div class="listBlocks table-wrapper" id="list6" style="display: none;">
+					<button id="listButton8" type="button">Show List</button><br><br>
+					<div class="listBlocks table-wrapper" id="list8" style="display: none;">
 					  <table class="alt">
 						  <thead>
 							  <tr>
@@ -776,6 +776,16 @@
 				$("#listButton7").click(function() {
 					var link = $(this);
 					$("#list7").toggle(function() {
+						if ($(this).is(':visible')) {
+							link.text('Hide List');
+						} else {
+							link.text('Show List');
+						}
+					});
+				});
+				$("#listButton8").click(function() {
+					var link = $(this);
+					$("#list8").toggle(function() {
 						if ($(this).is(':visible')) {
 							link.text('Hide List');
 						} else {
