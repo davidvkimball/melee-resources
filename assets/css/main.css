@@ -3943,6 +3943,20 @@ input, select, textarea {
 
 		}
 
+/* Footer Buttons */
+
+.footer-button {
+	background-color : #182b3b;;
+	color: white;
+	border-radius: 4px;
+  }
+  
+  #mybutton {
+	position: fixed;
+	bottom: -4px;
+	right: 10px;
+  }
+
 /* Intro */
 
 	#intro {
