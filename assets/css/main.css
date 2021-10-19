@@ -3956,6 +3956,18 @@ input, select, textarea {
 	bottom: -4px;
 	right: 10px;
   }
+  @media screen and (max-width: 736px) {
+
+	.footer-button {
+		font-size: 0.6em;
+		height: calc(4.75em + 2px);
+		letter-spacing: 0.20em;
+		line-height: 4em;
+		outline: 0;
+		padding: 0 2.75em;
+	  }
+}
+  
 
 /* Intro */
 
