@@ -543,6 +543,28 @@
 						  </tbody>
 					  </table>
 					  </div>
+					  <h2>Region - North America, Mexico</h2>
+					  <button id="listButton9" type="button">Show List</button><br><br>
+					  <div class="listBlocks table-wrapper" id="list9" style="display: none;">
+						<table class="alt">
+							<thead>
+								<tr>
+									<th>Icon</th>
+									<th>Name</th>
+									<th>Description</th>
+									<th>Invite</th>
+								</tr>
+							</thead>
+							<tbody>
+							  <tr>
+								  <td><img src="icons/discord/latinos.gif"></td>
+								  <td>Smash Latinos</td>
+								  <td>Latino Smash Discord server.</td>
+								  <td><a href="https://discord.gg/epKKNkZ" target="_blank">Join <i class="fa fa-external-link-alt"></i></a></td>
+							  </tr>  
+							</tbody>
+						</table>
+						</div>
 					  <h2>Region - North America, United States</h2>
 					  <button id="listButton6" type="button">Show List</button><br><br>
 					  <div class="listBlocks table-wrapper" id="list6" style="display: none;">
@@ -986,9 +1008,21 @@
 						}
 					});
 				});
+
 				$("#listButton8").click(function() {
 					var link = $(this);
 					$("#list8").toggle(function() {
+						if ($(this).is(':visible')) {
+							link.text('Hide List');
+						} else {
+							link.text('Show List');
+						}
+					});
+				});
+
+				$("#listButton9").click(function() {
+					var link = $(this);
+					$("#list9").toggle(function() {
 						if ($(this).is(':visible')) {
 							link.text('Hide List');
 						} else {
