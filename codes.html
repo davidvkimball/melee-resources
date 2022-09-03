@@ -396,6 +396,26 @@ C0250004 D03F04C4
 4E800021 437F0000
 43340000 8001002C
 60000000 00000000</code></pre>
+
+
+<h2>Z Jump (swaps buttons for the local player only)</h2>
+<button id="codeButton11" type="button">Show Code</button><br><br>
+<pre><code class="codeBlocks" id="code11" style="display: none;">$Swap X/Z (Netplay Safe) [Altimor]
+C234E2AC 00000002
+5000843E 5000B56A
+500056F6 00000000
+
+$Swap Y/Z (Netplay Safe) [Altimor]
+C234E2AC 00000002
+5000843E 5000BD28
+50004EF6 00000000</code></pre>
+
+
+
+
+
+
+
 <h2>Flash Red on Unsuccessful L-Cancel (already part of Slippi)</h2>
 <div class="box alt">
    <div class="row gtr-uniform">
@@ -675,6 +695,16 @@ e2000001 00000000
 				$("#codeButton10").click(function() {
 					var link = $(this);
 					$("#code10").toggle(function() {
+						if ($(this).is(':visible')) {
+							link.text('Hide Code');
+						} else {
+							link.text('Show Code');
+						}
+					});
+				});
+				$("#codeButton11").click(function() {
+					var link = $(this);
+					$("#code11").toggle(function() {
 						if ($(this).is(':visible')) {
 							link.text('Hide Code');
 						} else {
