@@ -397,6 +397,18 @@ C0250004 D03F04C4
 43340000 8001002C
 60000000 00000000</code></pre>
 
+<h2>Yellow Color Overlay During IASA Frames</h2>
+<button id="codeButton12" type="button">Show Code</button><br><br>
+<pre><code class="codeBlocks" id="code12" style="display: none;">$Optional: Yellow Color Overlay During IASA Frames (1.02) [Achilles]
+C2071960 00000007 
+98032218 98030504
+3C00437F 900304B8
+900304BC 900304C4
+38000000 900304C0
+900304C8 900304CC
+900304D0 900304D4
+60000000 00000000</code></pre>
+
 
 <h2>Z Jump (swaps buttons for the local player only)</h2>
 <button id="codeButton11" type="button">Show Code</button><br><br>
@@ -714,6 +726,16 @@ $HQ Fountain of Dreams Reflections [UnclePunch, PKFreeZZy]
 				$("#codeButton11").click(function() {
 					var link = $(this);
 					$("#code11").toggle(function() {
+						if ($(this).is(':visible')) {
+							link.text('Hide Code');
+						} else {
+							link.text('Show Code');
+						}
+					});
+				});
+				$("#codeButton12").click(function() {
+					var link = $(this);
+					$("#code12").toggle(function() {
 						if ($(this).is(':visible')) {
 							link.text('Hide Code');
 						} else {
