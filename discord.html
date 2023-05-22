@@ -527,6 +527,28 @@
 						  </tbody>
 					  </table>
 					  </div>
+					  <h2>Region - Middle East</h2>
+					<button id="listButton10" type="button">Show List</button><br><br>
+					<div class="listBlocks table-wrapper" id="list10" style="display: none;">
+					  <table class="alt">
+						  <thead>
+							  <tr>
+								  <th>Icon</th>
+								  <th>Name</th>
+								  <th>Description</th>
+								  <th>Invite</th>
+							  </tr>
+						  </thead>
+						  <tbody>
+							  <tr>
+								  <td><img src="icons/discord/middle-east.webp"></td>
+								  <td>Middle East</td>
+								  <td>Official server for the Middle East Melee scene.</td>
+								  <td><a href="https://discord.gg/WHRnEVVYHx" target="_blank">Join <i class="fa fa-external-link-alt"></i></a></td>
+							  </tr>
+						  </tbody>
+					  </table>
+					  </div>
 					  <h2>Region - North America, Canada</h2>
 					<button id="listButton8" type="button">Show List</button><br><br>
 					<div class="listBlocks table-wrapper" id="list8" style="display: none;">
@@ -1157,6 +1179,17 @@
 				$("#listButton9").click(function() {
 					var link = $(this);
 					$("#list9").toggle(function() {
+						if ($(this).is(':visible')) {
+							link.text('Hide List');
+						} else {
+							link.text('Show List');
+						}
+					});
+				});
+
+				$("#listButton10").click(function() {
+					var link = $(this);
+					$("#list10").toggle(function() {
 						if ($(this).is(':visible')) {
 							link.text('Hide List');
 						} else {
