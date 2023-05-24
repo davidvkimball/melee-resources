@@ -106,7 +106,7 @@
 							  <ul class="actions">
 								 <li><a href="https://dvdv.kim/3srdGqh" class="button" target="_blank">Game</a></li>
 								 <li><a href="https://wiki.dolphin-emu.org/index.php?title=Ripping_Games" class="button" target="_blank">Rip</a></li>
-								 <li><a href="https://dvdv.kim/BlippiGCController99" class="button" target="_blank">Controller</a></li>
+								 <li><a href="https://dvdv.kim/BlippiGCController99" class="button" onclick="trackButtonClick()" target="_blank">Controller</a></li>
 							 </ul>
 						   </div>
 						</div>
@@ -779,6 +779,21 @@
 			$("#video1")[0].src += "?autoplay=1";
 			});
 		  </script>
+	<!-- Custom GA4 Event Tracking for button clicks -->
+		<script>
+			function trackButtonClick(event) {
+			event.preventDefault(); // stop the link from being followed immediately
+			var linkUrl = event.target.href; // get the href attribute of the clicked element
+			var linkText = event.target.innerText; // get the inner text of the clicked element
+			gtag('event', 'click', {
+				'event_category': 'button',
+				'event_label': linkText,
+				'link_url': linkUrl
+			}, function() {
+				document.location = linkUrl; // navigate to the link after the event is tracked
+			});
+			}
+			</script>
 
 	</body>
 </html>

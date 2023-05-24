@@ -776,5 +776,21 @@ $HQ Fountain of Dreams Reflections [UnclePunch, PKFreeZZy]
 	$("#video1")[0].src += "?autoplay=1";
 	});
   </script>
+  
+  <!-- Custom GA4 Event Tracking for button clicks -->
+  <script>
+	function trackButtonClick(event) {
+	event.preventDefault(); // stop the link from being followed immediately
+	var linkUrl = event.target.href; // get the href attribute of the clicked element
+	var linkText = event.target.innerText; // get the inner text of the clicked element
+	gtag('event', 'click', {
+		'event_category': 'button',
+		'event_label': linkText,
+		'link_url': linkUrl
+	}, function() {
+		document.location = linkUrl; // navigate to the link after the event is tracked
+	});
+	}
+	</script>
 	</body>
 </html>
