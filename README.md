@@ -15,9 +15,10 @@ A treasure trove of open source software has been made all for the love of this 
 
 While Nintendo might not always be the most supportive of our grassroots community, we've taken the charge ourselves. 
 
-Make a suggestion or request the addition of a local Melee community Discord server to the directory: https://discord.gg/melee
+Check out Blippi.gg's [Product Hunt launch page](https://www.producthunt.com/posts/blippi-gg).
 
-Product Hunt Launch: https://www.producthunt.com/posts/blippi-gg
+## Request an Update
+Make a suggestion or request the addition of a local Melee community Discord server to the directory in the [#blippi-gg channel](https://discord.gg/melee).
 
 ## License
 
