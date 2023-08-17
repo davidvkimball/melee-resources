@@ -1,7 +1,7 @@
 <img src="https://raw.githubusercontent.com/davidvkimball/blippi/master/images/Profile.gif">
 
 # Blippi.gg
-[![Netlify Status](https://api.netlify.com/api/v1/badges/928a263a-3e20-435d-a043-b8d129e86422/deploy-status)](https://app.netlify.com/sites/blippi/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3f849f7a-71e6-463b-84af-01c523012348/deploy-status)](https://app.netlify.com/sites/blippi/deploys)
 [![GitHub contributors](https://img.shields.io/github/contributors/davidvkimball/blippi)](https://github.com/davidvkimball)
 [![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/y/davidvkimball/blippi/master)](https://github.com/davidvkimball/blippi/commits/master)
 [![Patreon patrons](https://img.shields.io/badge/dynamic/json?color=%23e85b46&label=Patreon&query=data.attributes.patron_count&suffix=%20patrons&url=https%3A%2F%2Fwww.patreon.com%2Fapi%2Fcampaigns%2F154730)](https://patreon.com/davidvkimball)
