@@ -1,6 +1,11 @@
 <img src="https://raw.githubusercontent.com/davidvkimball/blippi/master/images/Profile.gif">
 
 # Blippi.gg
+![GitHub contributors](https://img.shields.io/github/contributors/davidvkimball/blippi)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/y/davidvkimball/blippi/master)
+![Patreon patrons](https://img.shields.io/badge/dynamic/json?color=%23e85b46&label=Patreon&query=data.attributes.patron_count&suffix=%20patrons&url=https%3A%2F%2Fwww.patreon.com%2Fapi%2Fcampaigns%2F154730)
+![Discord Shield](https://discordapp.com/api/guilds/145784406706094080/widget.png?style=shield)
+
 Blippi.gg aims to be the go-to hub for the Super Smash Bros. Melee community. The site doubles as a destination for newcomers while also bringing all of the amazing fan-created software and resources together in one place. Additionally, the site has its own pages for a Melee Discord server directory, a list of codes to add cool features to the game, an app to show you're playing Melee on Discord and Steam, and also a full tutorial on how to rip your copy of the game as an ISO, among many other helpful resources. 
 
 I created blippi.gg so anyone that wanted to get into the video game Super Smash Bros. Melee could as quickly and as easily as possible. The Melee community is characterized by our vivacious enthusiasm and deep love for the game. Blippi.gg's creation was a result of the enforced lockdowns, where many players couldn't meet in-person to do tournaments, and many turned to stay-at-home solutions to compete instead. 
