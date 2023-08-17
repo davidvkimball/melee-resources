@@ -1,10 +1,10 @@
 <img src="https://raw.githubusercontent.com/davidvkimball/blippi/master/images/Profile.gif">
 
 # Blippi.gg
-![GitHub contributors](https://img.shields.io/github/contributors/davidvkimball/blippi)
-![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/y/davidvkimball/blippi/master)
-![Patreon patrons](https://img.shields.io/badge/dynamic/json?color=%23e85b46&label=Patreon&query=data.attributes.patron_count&suffix=%20patrons&url=https%3A%2F%2Fwww.patreon.com%2Fapi%2Fcampaigns%2F154730)
-![Discord Shield](https://discordapp.com/api/guilds/145784406706094080/widget.png?style=shield)
+[![GitHub contributors](https://img.shields.io/github/contributors/davidvkimball/blippi)](https://github.com/davidvkimball)
+[![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/y/davidvkimball/blippi/master)](https://github.com/davidvkimball/blippi/commits/master)
+[![Patreon patrons](https://img.shields.io/badge/dynamic/json?color=%23e85b46&label=Patreon&query=data.attributes.patron_count&suffix=%20patrons&url=https%3A%2F%2Fwww.patreon.com%2Fapi%2Fcampaigns%2F154730)](https://patreon.com/davidvkimball)
+[![Discord Shield](https://discordapp.com/api/guilds/145784406706094080/widget.png?style=shield)](https://discord.gg/melee)
 
 Blippi.gg aims to be the go-to hub for the Super Smash Bros. Melee community. The site doubles as a destination for newcomers while also bringing all of the amazing fan-created software and resources together in one place. Additionally, the site has its own pages for a Melee Discord server directory, a list of codes to add cool features to the game, an app to show you're playing Melee on Discord and Steam, and also a full tutorial on how to rip your copy of the game as an ISO, among many other helpful resources. 
 
