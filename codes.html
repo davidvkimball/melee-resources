@@ -423,6 +423,39 @@ C2071960 00000007
 900304D0 900304D4
 60000000 00000000</code></pre>
 
+<h2>Color Overlay During Smash DI Inputs</h2>
+<button id="codeButton13" type="button">Show Code</button><br><br>
+<pre><code class="codeBlocks" id="code13" style="display: none;">$Optional: SDI Overlay [Altafen]
+*Flash yellow on 1 SDI, blue on 2 SDI, purple on 3+ SDI inputs
+C208E588 00000018
+88A30505 38A50001
+98A30505 2C050001
+41820074 2C050002
+41820038 3C00437F
+900304B8 900304C0
+900304C4 38000000
+900304BC 900304C8
+900304CC 900304D0
+900304D4 38000080
+98030504 48000068
+3C00437F 900304C0
+900304C4 38000000
+900304B8 900304BC
+900304C8 900304CC
+900304D0 900304D4
+38000080 98030504
+48000034 3C00437F
+900304B8 900304BC
+900304C4 38000000
+900304C0 900304C8
+900304CC 900304D0
+900304D4 38000080
+98030504 8863000C
+60000000 00000000
+C208E734 00000002
+83FE002C 38000000
+981F0505 00000000</code></pre>
+
 
 <h2>Z Jump (swaps buttons for the local player only)</h2>
 <button id="codeButton11" type="button">Show Code</button><br><br>
@@ -753,6 +786,16 @@ $HQ Fountain of Dreams Reflections [UnclePunch, PKFreeZZy]
 				$("#codeButton12").click(function() {
 					var link = $(this);
 					$("#code12").toggle(function() {
+						if ($(this).is(':visible')) {
+							link.text('Hide Code');
+						} else {
+							link.text('Show Code');
+						}
+					});
+				});
+				$("#codeButton13").click(function() {
+					var link = $(this);
+					$("#code13").toggle(function() {
 						if ($(this).is(':visible')) {
 							link.text('Hide Code');
 						} else {
