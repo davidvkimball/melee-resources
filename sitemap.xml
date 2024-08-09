@@ -8,20 +8,23 @@
 
 
 <url>
-  <loc>https://blippi.gg/</loc>
-  <lastmod>2020-12-03T22:24:12+00:00</lastmod>
+  <loc>https://melee.tv/</loc>
+  <lastmod>2024-08-09T22:24:12+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://blippi.gg/codes.html</loc>
-  <lastmod>2020-12-03T22:24:12+00:00</lastmod>
+  <loc>https://melee.tv/discord</loc>
+  <lastmod>2024-08-09T22:24:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://blippi.gg/index.html</loc>
-  <lastmod>2020-12-03T22:24:12+00:00</lastmod>
+  <loc>https://melee.tv/codes</loc>
+  <lastmod>2024-08-09T22:24:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://melee.tv/optimize</loc>
+  <lastmod>2024-08-09T22:24:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
-
 </urlset>
