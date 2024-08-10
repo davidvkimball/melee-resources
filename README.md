@@ -1,9 +1,9 @@
-<img src="https://raw.githubusercontent.com/davidvkimball/blippi/master/images/Profile.gif">
+<img src="https://raw.githubusercontent.com/davidvkimball/melee-resources/master/images/Profile.gif">
 
 # Melee.tv (formerly Blippi.gg)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3f849f7a-71e6-463b-84af-01c523012348/deploy-status)](https://app.netlify.com/sites/blippi/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3f849f7a-71e6-463b-84af-01c523012348/deploy-status)](https://app.netlify.com/sites/melee-resources/deploys)
 [![GitHub contributors](https://img.shields.io/github/contributors/davidvkimball/blippi)](https://github.com/davidvkimball)
-[![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/y/davidvkimball/blippi/master)](https://github.com/davidvkimball/blippi/commits/master)
+[![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/y/davidvkimball/blippi/master)](https://github.com/davidvkimball/melee-resources/commits/master)
 [![Patreon patrons](https://img.shields.io/badge/dynamic/json?color=%23e85b46&label=Patreon&query=data.attributes.patron_count&suffix=%20patrons&url=https%3A%2F%2Fwww.patreon.com%2Fapi%2Fcampaigns%2F154730)](https://patreon.com/davidvkimball)
 [![Discord Shield](https://discordapp.com/api/guilds/145784406706094080/widget.png?style=shield)](https://discord.gg/melee)
 
@@ -18,7 +18,7 @@ While Nintendo might not always be the most supportive of our grassroots communi
 Check out Melee.tv's [Product Hunt launch page](https://www.producthunt.com/posts/blippi-gg).
 
 ## Request an Update
-Make a suggestion or request the addition of a local Melee community Discord server to the directory in the [#blippi-gg channel](https://discord.gg/melee).
+Make a suggestion or request the addition of a local Melee community Discord server to the directory in the [#discord-directory channel](https://discord.gg/melee).
 
 ## License
 
@@ -26,7 +26,7 @@ The code in this project is licensed under the MIT license, except for the parts
 
 MIT License
 
-Copyright (c) 2023 David V. Kimball
+Copyright (c) 2024 David V. Kimball
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
