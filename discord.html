@@ -619,7 +619,7 @@
 								  <td><img src="icons/discord/new-england.gif"></td>
 								  <td>New England</td>
 								  <td>Unified New England Melee Discord server, comprising Maine, New Hampshire, Vermont, Massachusetts, Rhode Island, and Connecticut.</td>
-								  <td><a href="https://discord.gg/nem" target="_blank">Join <i class="fa fa-external-link-alt"></i></a></td>
+								  <td><a href="https://discord.gg/nemelee" target="_blank">Join <i class="fa fa-external-link-alt"></i></a></td>
 							  </tr>
 								<tr>
 									<td><img src="icons/discord/new-jersey.png"></td>
@@ -1098,6 +1098,28 @@
 						  </tbody>
 					  </table>
 					  </div>
+					  <h2>Region - Africa</h2>
+					  <button id="listButton11" type="button">Show List</button><br><br>
+					  <div class="listBlocks table-wrapper" id="list11" style="display: none;">
+						<table class="alt">
+							<thead>
+								<tr>
+									<th>Icon</th>
+									<th>Name</th>
+									<th>Description</th>
+									<th>Invite</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><img src="icons/discord/algeria.webp"></td>
+									<td>Algeria</td>
+									<td>Official server for the Algeria Smash scene.</td>
+									<td><a href="https://discord.gg/UeeA7cRkv9" target="_blank">Join <i class="fa fa-external-link-alt"></i></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
 					  
 						
 			   </div>
@@ -1295,6 +1317,16 @@
 				$("#listButton10").click(function() {
 					var link = $(this);
 					$("#list10").toggle(function() {
+						if ($(this).is(':visible')) {
+							link.text('Hide List');
+						} else {
+							link.text('Show List');
+						}
+					});
+				});
+				$("#listButton11").click(function() {
+					var link = $(this);
+					$("#list11").toggle(function() {
 						if ($(this).is(':visible')) {
 							link.text('Hide List');
 						} else {
