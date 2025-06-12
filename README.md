@@ -5,7 +5,7 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/davidvkimball/blippi)](https://github.com/davidvkimball)
 [![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/y/davidvkimball/blippi/master)](https://github.com/davidvkimball/melee-resources/commits/master)
 [![Patreon patrons](https://img.shields.io/badge/dynamic/json?color=%23e85b46&label=Patreon&query=data.attributes.patron_count&suffix=%20patrons&url=https%3A%2F%2Fwww.patreon.com%2Fapi%2Fcampaigns%2F154730)](https://patreon.com/davidvkimball)
-[![Discord Shield](https://discordapp.com/api/guilds/145784406706094080/widget.png?style=shield)](https://discord.gg/melee)
+[![Discord Shield](https://discordapp.com/api/guilds/145784406706094080/widget.png?style=shield)](https://discord.gg/UnqjgxJM5A)
 
 Melee.tv aims to be the go-to hub for the Super Smash Bros. Melee community. The site doubles as a destination for newcomers while also bringing all of the amazing fan-created software and resources together in one place. Additionally, the site has its own pages for a Melee Discord server directory, a list of codes to add cool features to the game, an app to show you're playing Melee on Discord and Steam, and also a full tutorial on how to rip your copy of the game as an ISO, among many other helpful resources. 
 
@@ -18,7 +18,7 @@ While Nintendo might not always be the most supportive of our grassroots communi
 Check out Melee.tv's [Product Hunt launch page](https://www.producthunt.com/posts/blippi-gg).
 
 ## Request an Update
-Make a suggestion or request the addition of a local Melee community Discord server to the directory in the [#discord-directory channel](https://discord.gg/melee).
+Make a suggestion or request the addition of a local Melee community Discord server to the directory in the [#discord-directory channel](https://discord.gg/UnqjgxJM5A).
 
 ## License
 
