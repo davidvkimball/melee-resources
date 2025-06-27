@@ -1,12 +1,9 @@
 # Redirects to relevant locations on the web.
-https://blippi.gg/*                 https://melee.tv/:splat 301!
 /index.html*			   /:splat 301!
 /discord.html*		           /discord:splat 301!
 /optimize.html*		           /optimize:splat 301!
 /codes.html*			   /codes:splat 301!
 /bots    		           https://melee.tv/discord#bots
 /form     		           https://melee.tv/discord#form
-/heck      		           https://www.facebook.com/groups/meleeheck
-/freemelee  	                   https://www.reddit.com/r/SSBM/comments/jz63r8/freemelee_a_strategic_initiative/
-/support         		   https://patreon.com/davidvkimball
+/support         		   https://ko-fi.com/madeinshinea
 /community			   https://x.com/i/communities/1597751295871713281
